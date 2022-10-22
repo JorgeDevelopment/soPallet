@@ -4,7 +4,7 @@ trabalho da cadeira de programacao WEB
 Descrição do Sistema:
 O Sistema em causa é uma plataforma de compra e venda de artigos de pallet online via site de internet.
 Requisitos funcionais
-RF01	O Sistema deve ser Mortrar artigos de palate
+RF01	O Sistema deve ser Mostrar artigos de pallet
 RF02	O sitema deve mostrar o preço dos produtos anuciados
 RF03	O sistema deve permitir a simulacao de conpra dos produtos
 RF04	O sitema deve permitir acdicionar produtos ao carinho do usuário
