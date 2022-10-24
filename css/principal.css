@@ -1,11 +1,13 @@
-    *{
+   *{
     margin:0;
     border:0;
     padding:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+body{
+    font-family: sans-serif;
+}
 /* cabecalho */
 
 header{
@@ -26,6 +28,9 @@ header{
     color:rgb(143, 143, 143);
     text-decoration:none;
 }
+.logo a:hover{
+    color: rgba(80, 221, 198, 0.808);
+}
 
 nav{
     width: 40%;
@@ -37,6 +42,7 @@ nav{
 nav ul{
     list-style: none;
     color: white;
+    font-family: sans-serif;
 }
 
 nav ul li{
@@ -53,6 +59,8 @@ nav ul li a{
 }
 nav ul li a:hover{
     text-decoration:underline;
+    color:rgba(80, 221, 198, 0.808);
+    text-decoration-color:rgba(80, 221, 198, 0.808);
 }
 
 .login{
@@ -75,7 +83,7 @@ nav ul li a:hover{
 }
 
 .login button:hover{
-    background-color:rgba(241, 241, 77, 0.808);
+    background-color:rgba(83, 255, 226, 0.808);
 }
 
 .mais{
@@ -84,7 +92,7 @@ nav ul li a:hover{
     height: 30px;
     padding: 10px;
     margin: 10px 0px 10px;
-    float: right;
+    float: center;
     top:-65px;
 }
 
@@ -258,4 +266,7 @@ footer{
 
 .icons li a:hover{
     text-decoration: underline;
+}
+#email{
+    border: 1px solid black;
 }
